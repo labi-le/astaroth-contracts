@@ -1,0 +1,19 @@
+{
+  "name": "labile/astaroth-contracts",
+  "description": "Contracts for astaroth core",
+  "authors": [
+    {
+      "name": "labile",
+      "email": "1a6i1e@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Astatorh\\Contracts\\": "src/Contracts"
+    }
+  }
+}
